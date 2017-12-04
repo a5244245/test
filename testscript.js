@@ -1,11 +1,9 @@
-jQuery(document).ready(function($){
-$(window).resize(function(){     
+jQuery(document).ready(function($){   
 
-       if ($('body').width() <= 768 ){
+       if ($(window).width() <= 768 ){
 
               // is mobile device
               console.log('tablets');
        }
 
-});
 });
