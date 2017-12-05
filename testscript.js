@@ -1,9 +1,6 @@
-$(document).ready(function(){   
+var $ofweidht=innerWidth;   //取得螢幕寬度
 
-       if ($(window).width() >= 768 ){
 
-              // is mobile device
-              alert('mobile');
-       }
-
-});
+if($ofweidht>=768){     //設定判斷條件，大於等於1280時frametop的CSS屬性為block
+alert('test');
+ } 
